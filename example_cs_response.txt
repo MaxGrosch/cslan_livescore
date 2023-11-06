@@ -1,0 +1,61 @@
+This request has been reveived!
+{'key1': 'value1', 'key2': 'value2'}
+127.0.0.1 - - [06/Nov/2023 11:12:49] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265750}}
+127.0.0.1 - - [06/Nov/2023 11:15:50] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265760}}
+127.0.0.1 - - [06/Nov/2023 11:16:00] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265770}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'warmup', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 0, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 0, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}}
+127.0.0.1 - - [06/Nov/2023 11:16:10] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265773}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'freezetime'}, 'player': {'match_stats': {'kills': 0, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 0}}, 'previously': {'map': {'phase': 'warmup', 'team_ct': {'consecutive_round_losses': 0}, 'team_t': {'consecutive_round_losses': 0}}}}
+127.0.0.1 - - [06/Nov/2023 11:16:13] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265784}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'freezetime'}, 'player': {'match_stats': {'kills': 0, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 0}}}
+127.0.0.1 - - [06/Nov/2023 11:16:24] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265794}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'live'}, 'player': {'match_stats': {'kills': 0, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 0}}, 'previously': {'round': {'phase': 'freezetime'}}}
+127.0.0.1 - - [06/Nov/2023 11:16:34] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265804}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'live'}, 'player': {'match_stats': {'kills': 0, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 0}}}
+127.0.0.1 - - [06/Nov/2023 11:16:44] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265814}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'live'}, 'player': {'match_stats': {'kills': 0, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 0}}}
+127.0.0.1 - - [06/Nov/2023 11:16:54] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265824}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'live'}, 'player': {'match_stats': {'kills': 0, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 0}}}
+127.0.0.1 - - [06/Nov/2023 11:17:04] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+127.0.0.1 - - [06/Nov/2023 11:17:09] "POST /receive_gsi HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Coding\Miniconda\envs\cslan\Lib\site-packages\flask\app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Miniconda\envs\cslan\Lib\site-packages\flask\app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Miniconda\envs\cslan\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Miniconda\envs\cslan\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Miniconda\envs\cslan\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Miniconda\envs\cslan\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\cslan_livescore\app\routes.py", line 20, in receive_gsi
+    print(eval(request.data))
+          ^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 43, in <module>
+NameError: name 'true' is not defined
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265829}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'live', 'bomb': 'planted'}, 'player': {'match_stats': {'kills': 1, 'assists': 0, 'deaths': 0, 'mvps': 0, 'score': 2}}}
+127.0.0.1 - - [06/Nov/2023 11:17:09] "POST /receive_gsi HTTP/1.1" 200 -
+This request has been reveived!
+{'provider': {'name': 'Counter-Strike: Global Offensive', 'appid': 730, 'version': 13967, 'steamid': '76561197991237347', 'timestamp': 1699265834}, 'map': {'mode': 'competitive', 'name': 'de_overpass', 'phase': 'live', 'round': 0, 'team_ct': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'team_t': {'score': 0, 'consecutive_round_losses': 1, 'timeouts_remaining': 1, 'matches_won_this_series': 0}, 'num_matches_to_win_series': 0}, 'round': {'phase': 'live', 'bomb': 'planted'}, 'player': {'match_stats': {'kills': 1, 'assists': 0, 'deaths': 1, 'mvps': 0, 'score': 2}}, 'previously': {'player': {'match_stats': {'deaths': 0}}}}
