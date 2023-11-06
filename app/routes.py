@@ -1,13 +1,15 @@
-from flask import render_template, request, make_response
+from flask import render_template, request
 from app import app
 from app import database_operations as dataops
+from app.models import Match
 
 
 @app.route('/')
-@app.route('/index')
-def index():
-    stats = [{"steam_id": "Kandidat", "games": 1, "wins": 1, "losses": 0, "rounds": 22, "kills": 22, "assists": 10, "deaths": 18, "dmg_done": 2000, "mvp": 5}]
-    return render_template("index.html", title="CS2 LAN", stats=stats)
+@app.route('/matches')
+def matches():
+    matches = Match.query.all()
+    print(matches)
+    return render_template("matches.html", matches=matches)
 
 
 @app.route("/health_check", methods=["GET"])
@@ -24,5 +26,6 @@ def receive_gsi():
     except NameError:
         data = None
     if isinstance(data, dict):
-        dataops.update_database(data)
-    return make_response("Success", 200)
+        print(data)
+        dataops.process_input_data(data)
+    return "Successfully received data"

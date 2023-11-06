@@ -1,8 +1,0 @@
-{% extends "base.html" %}
-
-{% block content %}
-    <h1>Hey guys!</h1>
-    {% for stat in stats %}
-    <div><p>{{ stat.steam_id }} has <b>{{ stat.kills }} kills</b> in {{ stat.games }} games.</p></div>
-    {% endfor %}
-{% endblock %}

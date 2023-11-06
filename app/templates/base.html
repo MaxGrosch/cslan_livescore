@@ -1,14 +1,10 @@
 <!doctype html>
 <html>
     <head>
-      {% if title %}
-      <title>{{ title }}</title>
-      {% else %}
-      <title>Welcome</title>
-      {% endif %}
+      <title>CS2 LAN</title>
     </head>
     <body>
-        <div>LAN Stats: <a href="/index">Home</a></div>
+        <div><a href="/matches">Matches</a></div>
         <hr>
         {% block content %}{% endblock %}
     </body>
