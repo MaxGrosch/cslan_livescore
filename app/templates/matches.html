@@ -2,7 +2,6 @@
 
 {% block content %}
     <h1>Matches</h1>
-    {% for match in matches %}
-    <div><p>{{ match.id }} - {{ match.timestamp_start }} - {{ match.map_name }} <b>{{ match.round_wins }} - {{ match.round_losses }}</b></p></div>
-    {% endfor %}
+    <div>{{ overview|safe }}</div>
+    <div>{{ matches|safe }}</div>
 {% endblock %}
